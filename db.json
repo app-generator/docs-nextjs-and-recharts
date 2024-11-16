@@ -1,0 +1,118 @@
+{
+  "weeklyRevenue": {
+    "total": 4220,
+    "countries": [
+      { "name": "USA",
+        "amount": 1200
+      },
+      {
+        "name": "UAE",
+        "amount": 230
+      },
+      {
+        "name": "Germany",
+        "amount": 700
+      },
+      {
+        "name": "UK",
+        "amount": 900
+      },
+      {
+        "name": "Singapore",
+        "amount": 320
+      },
+      {
+        "name": "India",
+        "amount": 270
+      },
+      {
+        "name": "Colombia",
+        "amount": 440
+      },
+      {
+        "name": "Saudi Arabia",
+        "amount": 420
+      },
+      {
+        "name": "Canada",
+        "amount": 640
+      }
+    ]
+  },
+
+  "weeklyOrders": {
+    "total": 320,
+    "countries": [
+      {
+        "name": "USA",
+        "count": 96
+      },
+      {
+        "name": "UAE",
+        "count": 7
+      },
+      {
+        "name": "Germany",
+        "count": 42
+      },
+      {
+        "name": "UK",
+        "count": 17
+      },
+      {
+       "name": "Singapore",
+       "amount": 6
+      },
+      {
+        "name": "India",
+        "amount": 6
+      },
+      {
+        "name": "Colombia",
+        "amount": 43
+      },
+      {
+        "name": "Saudi Arabia",
+        "amount": 26
+      },
+      {
+        "name": "Canada",
+        "amount": 77
+      }
+    ]
+  },
+
+  "newCustomers": {
+    "total": 43,
+    "countries": [
+      {
+      "name": "USA",
+      "count": 11
+      },
+      {
+        "name": "India",
+        "count": 3
+      },
+      {
+        "name": "UAE",
+        "count": 7
+      },
+      {
+        "name": "Germany",
+        "count": 4
+      },
+      {
+        "name":"Canada",
+        "count": 3
+      },
+      {
+        "name":"UK",
+        "count": 9
+      },
+      {
+        "name": "Singapore",
+        "count": 6
+      }
+    ]
+  }
+}
