@@ -1,118 +1,285 @@
 {
-  "weeklyRevenue": {
-    "total": 4220,
-    "countries": [
-      { "name": "USA",
-        "amount": 1200
+  "weeklyData": {
+    "revenue":  4220,
+    "sales":  320,
+    "signups": 43
+  },
+  "userCountries": {
+    "all": {
+      "total": 100,
+      "data": [
+        {
+          "country": "USA",
+          "count": 110
+        },
+        {
+          "country": "India",
+          "count": 32
+        },
+        {
+          "country": "UAE",
+          "count": 71
+        },
+        {
+          "country": "Germany",
+          "count": 42
+        },
+        {
+          "country": "Canada",
+          "count": 32
+        },
+        {
+          "country": "UK",
+          "count": 92
+        },
+        {
+          "country": "Singapore",
+          "count": 61
+        },
+        {
+          "country": "Australia",
+          "count": 45
+        },
+        {
+          "country": "Malaysia",
+          "count": 32
+        },
+        {
+          "country": "Romania",
+          "count": 31
+        }
+      ]
+    },
+    "thisWeek": {
+      "total": 100,
+      "data": [
+        {
+          "country": "USA",
+          "count": 11
+        },
+        {
+          "country": "India",
+          "count": 3
+        },
+        {
+          "country": "UAE",
+          "count": 7
+        },
+        {
+          "country": "Germany",
+          "count": 4
+        },
+        {
+          "country": "Canada",
+          "count": 3
+        },
+        {
+          "country": "UK",
+          "count": 9
+        },
+        {
+          "country": "Singapore",
+          "count": 6
+        }
+      ]
+    }
+  },
+  "topCustomerDestinations": {
+    "total": 100,
+    "data": [
+      {
+        "country": "USA",
+        "count": 11,
+        "index": -2.21
       },
       {
-        "name": "UAE",
-        "amount": 230
+        "country": "UK",
+        "count": 9,
+        "index": 5.20
       },
       {
-        "name": "Germany",
-        "amount": 700
-      },
-      {
-        "name": "UK",
-        "amount": 900
-      },
-      {
-        "name": "Singapore",
-        "amount": 320
-      },
-      {
-        "name": "India",
-        "amount": 270
-      },
-      {
-        "name": "Colombia",
-        "amount": 440
-      },
-      {
-        "name": "Saudi Arabia",
-        "amount": 420
-      },
-      {
-        "name": "Canada",
-        "amount": 640
+        "country": "UAE",
+        "count": 7,
+        "index": 3.17
       }
     ]
   },
-
-  "weeklyOrders": {
-    "total": 320,
-    "countries": [
-      {
-        "name": "USA",
-        "count": 96
-      },
-      {
-        "name": "UAE",
-        "count": 7
-      },
-      {
-        "name": "Germany",
-        "count": 42
-      },
-      {
-        "name": "UK",
-        "count": 17
-      },
-      {
-       "name": "Singapore",
-       "amount": 6
-      },
-      {
-        "name": "India",
-        "amount": 6
-      },
-      {
-        "name": "Colombia",
-        "amount": 43
-      },
-      {
-        "name": "Saudi Arabia",
-        "amount": 26
-      },
-      {
-        "name": "Canada",
-        "amount": 77
-      }
-    ]
+  "dailyData": {
+    "leads": {
+      "total": 100,
+      "data": [
+        {
+          "date": "1731261600000",
+          "count": 48
+        },
+        {
+          "date": "1731348000000",
+          "count": 62
+        },
+        {
+          "date": "1731434400000",
+          "count": 63
+        },
+        {
+          "date": "1731520800000",
+          "count": 46
+        },
+        {
+          "date": "1731607200000",
+          "count": 62
+        },
+        {
+          "date": "1731693600000",
+          "count": 49
+        },
+        {
+          "date": "1731803895000",
+          "count": 67
+        }
+      ]
+    },
+    "prospects": {
+      "total": 100,
+      "data": [
+        {
+          "date": "1731261600000",
+          "count": 19
+        },
+        {
+          "date": "1731348000000",
+          "count": 21
+        },
+        {
+          "date": "1731434400000",
+          "count": 12
+        },
+        {
+          "date": "1731520800000",
+          "count": 13
+        },
+        {
+          "date": "1731607200000",
+          "count": 17
+        },
+        {
+          "date": "1731693600000",
+          "count": 14
+        },
+        {
+          "date": "1731803895000",
+          "count": 12
+        }
+      ]
+    },
+    "customers": {
+      "total": 100,
+      "data": [
+        {
+          "date": "1731261600000",
+          "count": 17
+        },
+        {
+          "date": "1731348000000",
+          "count": 9
+        },
+        {
+          "date": "1731434400000",
+          "count": 12
+        },
+        {
+          "date": "1731520800000",
+          "count": 17
+        },
+        {
+          "date": "1731607200000",
+          "count": 13
+        },
+        {
+          "date": "1731693600000",
+          "count": 11
+        },
+        {
+          "date": "1731803895000",
+          "count": 12
+        }
+      ]
+    }
   },
-
-  "newCustomers": {
-    "total": 43,
-    "countries": [
-      {
-      "name": "USA",
-      "count": 11
-      },
-      {
-        "name": "India",
-        "count": 3
-      },
-      {
-        "name": "UAE",
-        "count": 7
-      },
-      {
-        "name": "Germany",
-        "count": 4
-      },
-      {
-        "name":"Canada",
-        "count": 3
-      },
-      {
-        "name":"UK",
-        "count": 9
-      },
-      {
-        "name": "Singapore",
-        "count": 6
-      }
-    ]
-  }
+  "upcomingCalls": [
+    {
+      "name": "John",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Melinda",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Eliza",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Anand",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Siddarrtha",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Jen",
+      "dueAt": "1731261600000"
+    },
+    {
+      "name": "Heath",
+      "dueAt": "1731261600000"
+    }
+  ],
+  "latestSignups": [
+    {
+      "id": 5436,
+      "email": "john.doe@exmaple.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "john_doe",
+      "phone": "333-222-1111",
+      "createdAt": "1731261600000"
+    },
+    {
+      "id": 5435,
+      "email": "jane.doe@exmaple.com",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "username": "jane_doe",
+      "phone": "333-222-2111",
+      "createdAt": "1731201600000"
+    },
+    {
+      "id": 5434,
+      "email": "liz.smith@exmaple.com",
+      "firstName": "Elizabeth",
+      "lastName": "Smith",
+      "username": "liz_sm",
+      "phone": "333-322-2211",
+      "createdAt": "1731201700000"
+    },
+    {
+      "id": 5433,
+      "email": "heath.caesar@exmaple.com",
+      "firstName": "Heath",
+      "lastName": "Caesar",
+      "username": "heath_caesar",
+      "phone": "333-302-23211",
+      "createdAt": "1731202200000"
+    },
+    {
+      "id": 5432,
+      "email": "sid.brown@exmaple.com",
+      "firstName": "Sid",
+      "lastName": "Brown",
+      "username": "sid_brown",
+      "phone": "443-302-33211",
+      "createdAt": "1731172200000"
+    }
+  ]
 }
