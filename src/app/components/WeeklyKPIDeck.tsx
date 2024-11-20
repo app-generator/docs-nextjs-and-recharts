@@ -12,7 +12,7 @@ const WeeklyKPIDeck = async () => {
   const { revenue, sales, signups } = weeklyData;
 
   return (
-    <div className="stats rounded shadow w-full">
+    <div className="mx-auto stats rounded shadow w-full">
       <div className="stat place-items-center bg-orange-50">
         <div className="stat-figure">
           <UserGroupIcon height={48} width={48} stroke="orange" />

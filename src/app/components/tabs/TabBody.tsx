@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
 
 type TTabBodyProps = {
-  isActive: Boolean;
+  isActive: boolean;
   children: ReactNode;
 };
 

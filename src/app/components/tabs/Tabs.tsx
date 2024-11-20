@@ -28,7 +28,7 @@ export const Tabs = ({ tabs }: TTabsProps) => {
         }
       </div>
       <div className="py-1 px-0 tabs tabs-bordered">
-        {tabs?.map((tab: any, index: number) => (
+        {tabs?.map((tab: TTab, index: number) => (
           <TabLabel
             key={tab?.id}
             name={tab?.name}
