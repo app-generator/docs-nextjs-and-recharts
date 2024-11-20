@@ -1,0 +1,1 @@
+export { TableLatestCustomers } from "./TableLatestCustomers";
