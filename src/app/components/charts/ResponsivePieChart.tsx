@@ -1,6 +1,6 @@
 "use client"
 
-import React from "react";
+import React, { useState } from "react";
 import { random255Max } from "@nextjs-recharts/app/utils";
 import {
   Cell,
@@ -16,26 +16,42 @@ type TUserCountries = {
 };
 
 type TResponsivePieChartProps = {
-  data: any;
+  data: TUserCountries[];
   total: number;
-  width: number;
-  height: number;
 };
 
 
-export const ResponsivePieChart = ({ data, total, width, height }: TResponsivePieChartProps) => {
+export const ResponsivePieChart = ({ data, total }: TResponsivePieChartProps) => {
+  const [rad, setRad] = useState({
+    outerRad1: 70,
+    innerRad: 74,
+    outerRad2: 79,
+  });
+
   return (
-    <ResponsiveContainer width={width} height={height} className="p-1">
-      <PieChart width={width - 70} height={height - 70}>
+    <ResponsiveContainer
+      className="w-full"
+      aspect={1}
+      onResize={(width) => {
+        setRad({
+          outerRad1: 3 * width / 10,
+          innerRad: 3 * width / 10 + 4,
+          outerRad2: 3 * width / 10 + 8,
+        });
+      }}
+    >
+      <PieChart
+        className="w-full"
+      >
         <Pie
           data={data}
           dataKey={"count"}
           nameKey={"country"}
           cx="50%"
           cy="50%"
-          outerRadius={70}
+          outerRadius={rad?.outerRad1}
           fill="#8884d8"
-          label={{ fontSize: "10px", fontStyle: "bold" }}
+          label={{ fontSize: "12px", fontStyle: "bold" }}
         >
           {data?.map((entry: TUserCountries, index: number) => (
             <Cell
@@ -49,8 +65,8 @@ export const ResponsivePieChart = ({ data, total, width, height }: TResponsivePi
           dataKey={"total"}
           cx="50%"
           cy="50%"
-          innerRadius={74}
-          outerRadius={79}
+          innerRadius={rad?.innerRad}
+          outerRadius={rad?.outerRad2}
           fill="orange"
         />
         <Tooltip
