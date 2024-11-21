@@ -41,7 +41,7 @@ export const ResponsiveAreaChart = ({ data }: TResponsiveAreaChartProps) => {
           width={49}
           dataKey="count"
           style={{ fontSize: "12px" }}
-          label={{ value: "Propspects count", position: "insideLeft", fontSize: "14px", angle: "-90" }}
+          label={{ value: "Customers count", position: "insideLeft", fontSize: "14px", angle: "-90" }}
         />
         <Area
           type="monotone"

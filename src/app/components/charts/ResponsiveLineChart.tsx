@@ -47,7 +47,7 @@ export const ResponsiveLineChart = ({ data }: TResponsiveLineChartProps) => {
           width={49}
           dataKey="count"
           style={{ fontSize: "12px" }}
-          label={{ value: "Customers count", position: "insideLeft", fontSize: "14px", angle: "-90" }}
+          label={{ value: "Prospects count", position: "insideLeft", fontSize: "14px", angle: "-90" }}
         />
         <Line
           type="monotone"
